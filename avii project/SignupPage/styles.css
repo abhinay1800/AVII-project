@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 213, 149, 0.21);
+    overflow: hidden;
+}
+
+.heading-container{
+    width: 100%;
+    background-color:rgb(198, 198, 198);
+    display: flex;
+    justify-content: center;
+}
+.design-heading{
+    margin:0px ;
+    font-size: 2rem;
+    padding: 0 10px;
+    font-weight: 100;
+    letter-spacing: 100px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 10px 5px 2px rgb(163, 163, 163);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(244, 245, 164, 0.46);
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+nav div:first-child p{
+    cursor: pointer;
+}
+nav div:last-child p{
+    cursor: pointer;
+}
+
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:75%;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color:rgba(252, 221, 174, 1);
+}
+
+
+.login-container div{
+    font-size: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center; */
+}
+
+form input , label{
+    margin: 5px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-container div input{
+    background: rgba(243, 243, 243, 0.78);
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+    color: rgb(104, 104, 104);
+}
+
+button{
+    all: unset;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1sec;
+    background-color: rgba(176, 159, 0, 1);
+    border: 1px solid rgba(65, 65, 0, 0.3);
+}
+
+button:hover{
+    scale:1.1;
+}

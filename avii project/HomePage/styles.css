@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading-container{
+    width: 100%;
+    background-color:rgb(198, 198, 198);
+    display: flex;
+    justify-content: center;
+}
+.design-heading{
+    margin:0px ;
+    font-size: 2rem;
+    padding: 0 10px;
+    font-weight: 100;
+    letter-spacing: 100px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 10px 5px 2px rgb(163, 163, 163);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(244, 245, 164, 0.46);
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+nav div:first-child p{
+    cursor: pointer;
+}
+nav div:last-child p{
+    cursor: pointer;
+}
+
+.intro-container{
+    background-color: rgba(255, 213, 149, 0.21);
+    min-height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 2rem 10rem;
+    gap: 2rem;
+}
+.intro-container h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+}
+.intro-container p{
+    max-width: 450px;
+    color: rgb(78, 78, 78);
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+img{
+    position: absolute;
+    right: 15%;
+    top: 15%;
+}
+footer{
+    background-color: rgb(198, 198, 198);
+    height:7%;
+}
